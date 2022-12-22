@@ -1,0 +1,20 @@
+button:hover {
+    color: white;
+    background-color: green;
+    
+}
+
+button::before {
+    content: "Pasa por encima";
+    
+}
+
+
+button:hover::before{
+    content: "Pasa por encima";
+    visibility: hidden;
+}
+
+button:hover::after{
+    content: "Hola";
+}
