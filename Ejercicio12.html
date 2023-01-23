@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link rel="stylesheet" href="Ejercicio12.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <section class="jumbotron">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Esto es un Jumbotron</h1>
+                    <p class="col-md-8 fs-4">Este es el texto del Jumbotron</p>
+                    <button type="button" 
+        class="btn btn-primary" 
+        data-bs-toggle="modal" 
+        data-bs-target="#modal-ejemplo">
+            Prueba de Modal
+        </button>
+        <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4 class="modal-header">Este es el Header</h4>
+                    <div class="modal-body">Este es el Body</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="form-1">
+                <label class="form-label" for="nombre">Introduce tu nombre</label>
+                <input id="nombre" type="text" class="form-control" placeholder="Tu nombre"/>
+            </div>
+
+            <div class="number">
+                <label class="form-label" for="nombre">Introduce tu número de teléfono</label>
+                <input id="nombre" type="number" class="form-control" placeholder="Tu teléfono"/>
+            </div>
+<br>
+            <div class="area">
+                <textarea class="form-label" form="nombre">Deja un mensaje</textarea>
+            </div>
+        </section>
+
+
+        <section class="card">
+            <div class="card-body">
+                <h5 class="card-title">Leonel Vanini</h5>
+                <p  class="card-text">Esta es mi primer tarjeta de presentación</p>
+            </div>
+            <div class="card-footer">
+                Email: leonelvanini@gmail.com
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</html>
